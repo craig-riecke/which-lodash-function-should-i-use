@@ -1,0 +1,226 @@
+[
+  {
+    "text": "I have an <strong>unordered array</strong>",
+    "nodes": [
+      {
+        "text": "I want <strong>one element</strong>",
+        "nodes": [
+          {
+            "text": "Does it exist?",
+            "nodes": [
+              {
+                "text": "I have an <strong>exact value</strong>: <a>_.includes</a>",
+                "href": "https://lodash.com/docs/4.17.10#includes"
+              },
+              {
+                "text": "I have a <strong>predicate</strong>: <a>_.some</a>",
+                "href": "https://lodash.com/docs/4.17.10#some"
+              }
+            ]
+          },
+          {
+            "text": "Where is it? (an index, or null)",
+            "nodes": [
+              {
+                "text": "I have an <strong>exact value</strong>",
+                "nodes": [
+                  {
+                    "text": "I want the <strong>leftmost</strong> occurrence: <a>_.indexOf</a>",
+                    "href": "https://lodash.com/docs/4.17.10#indexOf"
+                  },
+                  {
+                    "text": "I want the <strong>rightmost</strong> occurence: <a>_.lastIndexOf</a>",
+                    "href": "https://lodash.com/docs/4.17.10#lastIndexOf"
+                  }
+                ]
+              },
+              {
+                "text": "I have a <strong>predicate</strong>",
+                "nodes": [
+                  {
+                    "text": "I want the <strong>leftmost</strong> occurrence: <a>_.findIndex</a>",
+                    "href": "https://lodash.com/docs/4.17.10#findIndex"
+                  },
+                  {
+                    "text": "I want the <strong>rightmost</strong> occurence: <a>_.findLastIndex</a>",
+                    "href": "https://lodash.com/docs/4.17.10#findLastIndex"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "What exactly is the element?",
+            "nodes": [
+              {
+                "text": "The <strong>first</strong>: <a>_.first</a>, <a>_.head</a>",
+                "href": "https://lodash.com/docs/4.17.10#first"
+              },
+              {
+                "text": "Somewhere in the <strong>middle</strong>, by index: <a>_.nth</a>",
+                "href": "https://lodash.com/docs/4.17.10#nth"
+              },
+              {
+                "text": "The <strong>last</strong>: <a>_.last</a>",
+                "href": "https://lodash.com/docs/4.17.10#last"
+              },
+              {
+                "text": "Some <strong>random</strong> one: <a>_.sample</a>",
+                "href": "https://lodash.com/docs/4.17.10#sample"
+              },
+              {
+                "text": "I have a <strong>predicate</strong>",
+                "nodes": [
+                  {
+                    "text": "I want the <strong>leftmost</strong> occurrence: <a>_.find</a>",
+                    "href": "https://lodash.com/docs/4.17.10#find"
+                  },
+                  {
+                    "text": "I want the <strong>rightmost</strong> occurence: <a>_.findLast</a>",
+                    "href": "https://lodash.com/docs/4.17.10#findLast"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "I want a <strong>subset of elements</strong>",
+        "nodes": [
+          {
+            "text": "I know which ones I want",
+            "nodes": [
+              {
+                "text": "A bunch of items on the <strong>left</strong>",
+                "nodes": [
+                  {
+                    "text": "A fixed number of elements: <a>_.take</a>",
+                    "href": "https://lodash.com/docs/4.17.10#take"
+                  },
+                  {
+                    "text": "Moving to right while some condition is true: <a>_.takeWhile</a>",
+                    "href": "https://lodash.com/docs/4.17.10#takeWhile"
+                  }
+                ]
+              },
+              {
+                "text": "A bunch of items on the <strong>right</strong>",
+                "nodes": [
+                  {
+                    "text": "A fixed number of elements: <a>_.takeRight</a>",
+                    "href": "https://lodash.com/docs/4.17.10#takeRight"
+                  },
+                  {
+                    "text": "Starting at the end, moving to the start while some condition is true: <a>_.takeRightWhile</a>",
+                    "href": "https://lodash.com/docs/4.17.10#takeRightWhile"
+                  }
+                ]
+              },
+              {
+                "text": "All but the <strong>last</strong> element: <a>_.initial</a>",
+                "href": "https://lodash.com/docs/4.17.10#initial"
+              },
+              {
+                "text": "All but the <strong>first</strong> element: <a>_.tail</a>",
+                "href": "https://lodash.com/docs/4.17.10#tail"
+              },
+              {
+                "text": "A bunch in the <strong>middle</strong>, between two indicies: <a>_.slice</a>",
+                "href": "https://lodash.com/docs/4.17.10#slice"
+              },
+              {
+                "text": "Matching elements in a given array: <a>_.intersection</a>, <a>_.intersectionBy</a>, <a>_.intersectionWith</a>",
+                "href": "https://lodash.com/docs/4.17.10#intersection"
+              },
+              {
+                "text": "Matching a <strong>predicate</strong>: <a>_.filter</a>",
+                "href": "https://lodash.com/docs/4.17.10#filter"
+              }
+            ]
+          },
+          {
+            "text": "I know which ones I <strong>don't</strong> want, i.e. I want to delete elements",
+            "nodes": [
+              {
+                "text": "A bunch of items on the <strong>left</strong>",
+                "nodes": [
+                  {
+                    "text": "A fixed number of elements: <a>_.drop</a>",
+                    "href": "https://lodash.com/docs/4.17.10#drop"
+                  },
+                  {
+                    "text": "Moving to right while some condition is true: <a>_.sropWhile</a>",
+                    "href": "https://lodash.com/docs/4.17.10#dropWhile"
+                  }
+                ]
+              },
+              {
+                "text": "A bunch of items on the <strong>right</strong>",
+                "nodes": [
+                  {
+                    "text": "A fixed number of elements: <a>_.dropRight</a>",
+                    "href": "https://lodash.com/docs/4.17.10#dropRight"
+                  },
+                  {
+                    "text": "Starting at the end, moving to the start while some condition is true: <a>_.dropRightWhile</a>",
+                    "href": "https://lodash.com/docs/4.17.10#dropRightWhile"
+                  }
+                ]
+              },
+              {
+                "text": "All <strong>falsey</strong> values: <a>_.compact</a>",
+                "href": "https://lodash.com/docs/4.17.10#compact"
+              },
+              {
+                "text": "All <strong>duplicate</strong> values:  <a>_.uniq</a>, <a>_.uniqBy</a>, <a>_.uniqWith</a> ",
+                "href": "https://lodash.com/docs/4.17.10#uniq"
+              },
+              {
+                "text": "Some <strong>fixed</strong> values: <a>_.without</a> or <a>_.pull</a> (mutates array)",
+                "href": "https://lodash.com/docs/4.17.10#without"
+              },
+              {
+                "text": "The values at a list of particular indices: <a>_.pullAt</a> (mutates array)",
+                "href": "https://lodash.com/docs/4.17.10#pullAt"
+              },
+              {
+                "text": "Matching elements in a given array: <a>_.difference</a>, <a>_.differenceBy</a>, <a>_.differenceWith</a> OR <a>_.pullAll</a>, <a>_.pullAllBy</a>, <a>_.pullAllWith</a> (mutates array) ",
+                "href": "https://lodash.com/docs/4.17.10#difference"
+              },
+              {
+                "text": "Matching a <strong>predicate</strong>: <a>_.reject</a>, <a>_.remove</a> (mutates array)",
+                "href": "https://lodash.com/docs/4.17.10#reject"
+              }
+            ]
+          },
+          {
+            "text": "Let Lodash pick them for me: <a>_.sampleSize</a>",
+            "href": "https://lodash.com/docs/4.17.10#sampleSize"
+          }
+        ]
+      },
+      {
+        "text": "I want to <strong>loop</strong>: to do something with each element"
+      },
+      {
+        "text": "I want to <strong>reorder<strong> the elements"
+      },
+      {
+        "text": "I want to change the shape of the array"
+      },
+      {
+        "text": "I want some information about the array as a whole"
+      },
+      {
+        "text": "I want to do something not listed above"
+      }
+    ]
+  },
+  {
+    "text": "I have a <strong>sorted array</strong>"
+  },
+  {
+    "text": "I have an <strong>object</strong>"
+  }
+]
