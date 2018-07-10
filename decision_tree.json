@@ -284,7 +284,7 @@
           {
             "text": "An <strong>aggregate</strong> (sum, maximum, or whatever function you want): <a>_.reduce</a>, <a>_reduceRight</a>",
             "href": "https://lodash.com/docs/4.17.10#reduce"
-          }
+          },
           {
             "text": "Whether elements conform to a predicate",
             "nodes": [
