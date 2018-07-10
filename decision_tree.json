@@ -1,6 +1,6 @@
 [
   {
-    "text": "I have an <strong>unordered array</strong>",
+    "text": "I have an <strong>unsorted array</strong>",
     "nodes": [
       {
         "text": "I want <strong>one element</strong>",
@@ -201,24 +201,179 @@
         ]
       },
       {
-        "text": "I want to <strong>loop</strong>: to do something with each element"
+        "text": "I want to <strong>loop</strong>: to do something with each element",
+        "nodes": [
+          {
+            "text": "And change each element",
+            "nodes": [
+              {
+                "text": "To a <strong>fixed</strong> value: <a>_.fill</a>",
+                "href": "https://lodash.com/docs/4.17.10#fill"
+              },
+              {
+                "text": "To a value returned from a <strong>function</strong>: <a>_.map</a>",
+                "href": "https://lodash.com/docs/4.17.10#map"
+              }
+            ]
+          },
+          {
+            "text": "And apply a procedure, leaving the element alone",
+            "nodes": [
+              {
+                "text": "Starting from the <strong>left</strong>: <a>_.each</a>, <a>_.forEach</a>",
+                "href": "https://lodash.com/docs/4.17.10#forEach"
+              },
+              {
+                "text": "Starting from the <strong>right</strong>: <a>_.eachRight</a>, <a>_.forEachRight</a>",
+                "href": "https://lodash.com/docs/4.17.10#forEachRight"
+              }
+            ]
+          }
+        ]
       },
       {
-        "text": "I want to <strong>reorder<strong> the elements"
+        "text": "I want to <strong>reorder<strong> the elements",
+        "nodes": [
+          {
+            "text": "In some <strong>random</strong> order: <a>_.shuffle</a>",
+            "href": "https://lodash.com/docs/4.17.10#shuffle"
+          },
+          {
+            "text": "In <strong>sorted</strong> order: <a>_.sortBy</a>, <a>_.orderBy</a>",
+            "href": "https://lodash.com/docs/4.17.10#sortBy"
+          },
+          {
+            "text": "In <strong>reverse</strong> order: <a>_.reverse</a>",
+            "href": "https://lodash.com/docs/4.17.10#reverse"
+          }
+        ]
       },
       {
-        "text": "I want to change the shape of the array"
+        "text": "I want to change the shape of the array",
+        "nodes": [
+          {
+            "text": "Removing the subarrays",
+            "nodes": [
+              {
+                "text": "<strong>1 level</strong> deep: <a>_.flatten</a>",
+                "href": "https://lodash.com/docs/4.17.10#flatten"
+              },
+              {
+                "text": "<strong>N levels</strong> deep: <a>_.flattenDepth</a>",
+                "href": "https://lodash.com/docs/4.17.10#flattenDepth"
+              },
+              {
+                "text": "<strong>All the way down</strong> no matter how deep: <a>_.flattenDeep</a>",
+                "href": "https://lodash.com/docs/4.17.10#flattenDeep"
+              }
+            ]
+          },
+          {
+            "text": "Flipping the axes: <a>_.zip</a>, <a>_.unzip</a>",
+            "href": "https://lodash.com/docs/4.17.10#zip"
+          }
+        ]
       },
       {
-        "text": "I want some information about the array as a whole"
+        "text": "I want some information about the array as a whole",
+        "nodes": [
+          {
+            "text": "The <strong>size</strong>: <a>_.size</a>",
+            "href": "https://lodash.com/docs/4.17.10#size"
+          },
+          {
+            "text": "An <strong>aggregate</strong> (sum, maximum, or whatever function you want): <a>_.reduce</a>, <a>_reduceRight</a>",
+            "href": "https://lodash.com/docs/4.17.10#reduce"
+          }
+          {
+            "text": "Whether elements conform to a predicate",
+            "nodes": [
+              {
+                "text": "<strong>At least one</strong> of them: <a>_.some</a>",
+                "href": "https://lodash.com/docs/4.17.10#flatten"
+              },
+              {
+                "text": "<strong>All</strong> of them: <a>_.every</a>",
+                "href": "https://lodash.com/docs/4.17.10#every"
+              },
+              {
+                "text": "<strong>How many</strong> of them: <a>_.countBy</a>",
+                "href": "https://lodash.com/docs/4.17.10#countBy"
+              }
+            ]
+          }
+        ]
       },
       {
-        "text": "I want to do something not listed above"
+        "text": "I want to do something not listed above",
+        "nodes": [
+          {
+            "text": "<strong>Split</strong> into equal-sized subarrays: <a>_.chunk</a>",
+            "href": "https://lodash.com/docs/4.17.10#chunk"
+          },
+          {
+            "text": "<strong>Glue</strong> a bunch of elements",
+            "nodes": [
+              {
+                "text": "Keeping duplicates: <a>_.concat</a>",
+                "href": "https://lodash.com/docs/4.17.10#concat"
+              },
+              {
+                "text": "Removing duplicates: <a>_.union</a>, <a>_.unionBy</a>, <a>_.unionWith</a>",
+                "href": "https://lodash.com/docs/4.17.10#union"
+              }
+            ]
+          },
+          {
+            "text": "Create an object from a <strong>array of 2-element subarrays</strong>: <a>_.fromPairs</a>",
+            "href": "https://lodash.com/docs/4.17.10#fromPairs"
+          },
+          {
+            "text": "<strong>Join</strong> the elements into a big string: <a>_.join</a>",
+            "href": "https://lodash.com/docs/4.17.10#join"
+          },
+          {
+            "text": "<strong>Group</strong> a bunch of elements",
+            "nodes": [
+              {
+                "text": "Into two arrays according to a boolean predicate: <a>_.partition</a>",
+                "href": "https://lodash.com/docs/4.17.10#partition"
+              },
+              {
+                "text": "Into an object whose properties are computed by a function: Removing duplicates: <a>_.groupBy</a>",
+                "href": "https://lodash.com/docs/4.17.10#groupBy"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
-    "text": "I have a <strong>sorted array</strong>"
+    "text": "I have a <strong>sorted array</strong>",
+    "nodes": [
+        {
+          "text": "I want to know where an element can be inserted to preserve order",
+          "nodes": [
+            {
+              "text": "The <strong>leftmost</strong> index: <a>_.sortedIndex</a>, <a>_.sortedIndexBy</a>, <a>_.sortedIndexOf</a>",
+              "href": "https://lodash.com/docs/4.17.10#sortedIndex"
+            },
+            {
+              "text": "The <strong>rightmost</strong> index: <a>_.sortedLastIndex</a>, <a>_.sortedLastIndexBy</a>, <a>_.sortedLastIndexOf</a>",
+              "href": "https://lodash.com/docs/4.17.10#sortedLastIndex"
+            }
+          ]
+        },
+        {
+          "text": "I want all unique elements in sorted order: <a>_.sortedUniq</a>, <a>_.sortedUniqBy</a>",
+          "href": "https://lodash.com/docs/4.17.10#sortedUniq"
+        },
+        {
+          "text": "For everything else, see Unsorted Array above",
+          "href": "index.html"
+        }
+      ]
   },
   {
     "text": "I have an <strong>object</strong>"
